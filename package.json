@@ -1,0 +1,25 @@
+{
+  "name": "decentralized_application_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berrezougAbdelhak/Decentralized_application_boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berrezougAbdelhak/Decentralized_application_boilerplate/issues"
+  },
+  "homepage": "https://github.com/berrezougAbdelhak/Decentralized_application_boilerplate#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.1.0",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.26"
+  }
+}
