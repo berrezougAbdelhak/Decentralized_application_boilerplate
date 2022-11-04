@@ -3,8 +3,10 @@ pragma solidity ^0.4.17;
 contract Test {
     address private manager;
     address[] public players;
-    function Test() public {
-        manager=msg.sender;    
+    string public message;
+    function Test(string initialMessage) public {
+        manager=msg.sender;
+        message=initialMessage;    
     }
 
     function getManager() public view returns(address) {
